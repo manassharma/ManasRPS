@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!--Reference for CSS: http://codepen.io/mariosmaselli/pen/ghmwq -->
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Rock, Paper & Scissors</title>
+    <link rel="stylesheet" href="alertify.core.css"/>
+    <link rel="stylesheet" href="alertify.default.css"/>
+    <link rel="stylesheet" type="text/css" href="background.css">
+</head>
+<body>
+
+</body>
+
+<center style="color: cyan;font-weight:bold;text-align:center;font-size: 300%; font-family: 'Adobe Arabic'"> Make a Selection </center>
+
+
+<div class="buttons" align="center">
+    <input type="image" src="rock.jpg" id="rock" alt="submit" onclick="rockSelect()"/>
+    <input type="image" src="paper.jpg" id="paper" alt="submit" onclick="paperSelect()"/>
+    <input type="image" src="scissors.jpg" id="scissors" alt="submit" onclick="scissorSelect()"/>
+</div>
+
+<script type="text/javascript">
+    function test(){
+    alertify.success("hi");
+    }
+</script>
+
+<div class="wrapper">
+    <div class="hulk">
+        <div class="head"><div class="mouth"></div></div>
+        <div class="right-arm"></div>
+        <div class="fist"></div>
+        <div class="left-arm"></div>
+        <div class="body"></div>
+        <div class="right-leg"></div>
+        <div class="left-leg"></div>
+    </div>
+
+    <div class="captain">
+        <div class="head">A</div>
+        <div class="body"><div class="star"></div></div>
+        <div class="arms"></div>
+        <div class="shield"><div class="star"></div></div>
+        <div class="hands"></div>
+        <div class="legs"></div>
+        <div class="boots"></div>
+    </div>
+
+    <div class="ironman">
+        <div class="helmet"><div class="mask"></div></div>
+        <div class="right-arm"></div>
+        <div class="left-arm"></div>
+        <div class="body"><div class="power"></div></div>
+        <div class="right-leg"></div>
+        <div class="left-leg"></div>
+    </div>
+
+    <div class="thor">
+        <div class="helmet"></div>
+        <div class="head">
+            <div class="beard"></div>
+        </div>
+        <div class="cap"></div>
+        <div class="arm-right"></div>
+        <div class="arm-left"></div>
+        <div class="body"></div>
+        <div class="hammer"></div>
+        <div class="legs"></div>
+        <div class="feet"></div>
+    </div>
+</div>
+
+
+</div>
+<script src="GameEngine.js"></script>
+<script src="alertify.js"></script>
+<script src="alertify.min.js"></script>
+</html>
