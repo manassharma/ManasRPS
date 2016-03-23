@@ -7,7 +7,7 @@
  */
 
 function rockSelect() {
-        selection = Math.floor(Math.random() * (3 - 1)) + 1;
+        selection = Math.floor((Math.random() * 3) + 1);
         if (selection == 1) {
             alertify.success("It's a tie!, the bot selected rock as well");
         }
@@ -20,7 +20,7 @@ function rockSelect() {
 }
 
 function paperSelect() {
-    selection = Math.floor(Math.random() * (3 - 1)) + 1;
+    selection = Math.floor((Math.random() * 3) + 1);
     if (selection == 1) {
         alertify.success("It's a tie!, the bot selected paper as well");
     }
@@ -33,7 +33,7 @@ function paperSelect() {
 }
 
 function scissorSelect() {
-    selection = Math.floor(Math.random() * (3 - 1)) + 1;
+    selection = Math.floor((Math.random() * 3) + 1);
     if (selection == 1) {
         alertify.success("It's a tie!, the bot selected scissor as well");
     }
